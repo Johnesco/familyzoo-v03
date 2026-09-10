@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v03
-  ifid: 3A5E046C-0A7E-471D-9B7C-ABB3265B53EB
+  ifid: B995D457-CC6C-4063-A106-4DA8B878CEFF
   story-version: 0.0.2
   description: Sharpee tutorial step 3 — things that are part of the room and cannot be taken.
 
@@ -14,8 +14,7 @@ create the Zoo Entrance
 
   first time
     Your family piles out of the car, buzzing with excitement — a
-    whole day at the zoo! You straighten the strap of your backpack
-    and take it all in. You stand before the wrought-iron gates of
+    whole day at the zoo! You stand before the wrought-iron gates of
     the Willowbrook Family Zoo. A cheerful welcome sign arches over
     the entrance, and a small ticket booth sits to one side. A
     sturdy iron fence runs along either side of the gates. The main
@@ -33,27 +32,23 @@ create the Main Path
   west to the Aviary
 
   A wide gravel path winds through the heart of the zoo. Colorful
-  direction signs point every which way. A park bench sits beside the
-  path. To the east, the petting zoo. To the west, the aviary. A staff
-  gate blocks the path to the south. The entrance is back to the north.
+  direction signs point every which way. To the east, the petting zoo.
+  To the west, the aviary. The entrance is back to the north.
 
 create the Petting Zoo
   a room
   aka petting area, pen
 
-  A cheerful open-air enclosure that smells of warm hay and fur. A feed
-  dispenser is mounted on a post, and an info plaque is posted by the
-  gate. The main path is back to the west.
+  A cheerful open-air enclosure that smells of warm hay and fur. The
+  main path is back to the west.
 
 create the Aviary
   a room
   aka bird house, dome
 
-  You step inside a soaring mesh dome. Brilliantly colored parrots
-  chatter from rope perches, and a toucan eyes you curiously from a
-  branch overhead. A small waterfall splashes into a stone basin. An
-  info plaque hangs near the entrance. The gift shop is to the west. The
-  main path is back to the east.
+  You step inside a soaring mesh dome. A toucan eyes you curiously from a
+  branch overhead, and rope perches crisscross the space. A small
+  waterfall splashes into a stone basin. The main path is back to the east.
 
 create Alex
   a person

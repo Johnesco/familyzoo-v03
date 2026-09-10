@@ -1,5 +1,5 @@
 Zoo Entrance
-Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You straighten the strap of your backpack and take it all in. You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. A sturdy iron fence runs along either side of the gates. The main path leads south into the zoo grounds.
+Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. A sturdy iron fence runs along either side of the gates. The main path leads south into the zoo grounds.
 
 > x iron fence
 A tall wrought-iron fence with animal silhouettes.
@@ -9,7 +9,7 @@ The iron fence is fixed in place.
 
 > south
 Main Path
-A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. A park bench sits beside the path. To the east, the petting zoo. To the west, the aviary. A staff gate blocks the path to the south. The entrance is back to the north.
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
 
 > x direction signs
 Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).

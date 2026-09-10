@@ -1,32 +1,30 @@
-# Family Zoo — v03 — Scenery
+# Family Zoo — v03: Scenery
 
-Populates every room with environmental detail — fences, flowers, hay bales, waterfalls — that the player can examine but not pick up. Makes the distinction between EntityType.SCENERY as a label and SceneryTrait as the mechanism that actually blocks taking.
+Fences, flower beds, hay, a waterfall, a toucan. Scenery is what makes a room feel like a place rather than a list of exits — present to examine, refused when taken.
 
-Step 3 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 3 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- SceneryTrait to prevent items from being taken
-- Distinction between EntityType.SCENERY and SceneryTrait
-- Generous alias lists for natural player phrasing
-- Guidance on what belongs as scenery vs. portable items
-- Scenery-only descriptions that stay hidden from room object listings
+- `scenery` blocks taking without any refusal message of your own
+- Several scenery things sharing one room
+- Writing descriptions that reward a second look
+- `aka` on scenery so EXAMINE FENCE and EXAMINE IRON FENCE both work
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v03.story`](./familyzoo-v03.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v03-scenery.md`](./docs/v03-scenery.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v03
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v03
-python C:/code/ifhub/tools/ship.py familyzoo-v03
+npx sharpee play
+npx sharpee test          # replays familyzoo-v03.tests.json
+python ../tools/build.py familyzoo-v03 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).
