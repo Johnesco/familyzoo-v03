@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "story": "familyzoo-v03",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v03 — Scenery)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 3 — things that are part of the room and cannot be taken."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x iron fence",
+      "assertions": {
+        "contains": [
+          "A tall wrought-iron fence with animal silhouettes."
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "take iron fence",
+      "assertions": {
+        "contains": [
+          "The iron fence is fixed in place."
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "south",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x direction signs",
+      "assertions": {
+        "contains": [
+          "Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north)."
+        ]
+      }
+    }
+  ]
+}
