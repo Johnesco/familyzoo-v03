@@ -40,4 +40,3 @@ take toucan
 take waterfall
 take rope perches
 score
-inventory
