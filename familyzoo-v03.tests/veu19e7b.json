@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v03",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,53 +12,61 @@
             "is": "Sharpee tutorial step 3 — things that are part of the room and cannot be taken."
           }
         ]
-      }
+      },
+      "id": "iarnwv1t",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "igiqok95",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "x iron fence",
       "assertions": {
         "contains": [
           "A tall wrought-iron fence with animal silhouettes."
         ]
-      }
+      },
+      "command": "x iron fence",
+      "id": "a8mb7x3a",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "take iron fence",
       "assertions": {
         "contains": [
           "The iron fence is fixed in place."
         ]
-      }
+      },
+      "command": "take iron fence",
+      "id": "xd1rkhsj",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "386f6md4",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x direction signs",
       "assertions": {
         "contains": [
           "Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north)."
         ]
-      }
+      },
+      "command": "x direction signs",
+      "id": "zogii2p2",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "veu19e7b"
 }
